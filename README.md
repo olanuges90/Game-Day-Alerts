@@ -4,7 +4,8 @@ This Project is a Game-Day Alert system built with Python Programming language t
 
 
 # Architectural Diagram
-![image](https://github.com/user-attachments/assets/e0f74cbf-52fc-4a15-8637-1e905d96b2e0)
+![image](https://github.com/user-attachments/assets/b48223fe-2806-4f74-b45b-60f92986076d)
+
 
  # Objectives
  - Uses an External API to retrieve real-time NBA game scores.
