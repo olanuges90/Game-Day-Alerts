@@ -18,12 +18,11 @@ This Project is a Game-Day Alert system built with Python Programming language t
 - Free Subscription to External API (Sportsdata.io)
 
 # Technologies
-- Cloud Platform: Amazon Web Services
-- AWS Services: AWS Lambda, Amazon SNS, Amazon Eventbridge
+- Cloud Platform: Amazon Web Services.
+- AWS Services: AWS Lambda, Amazon SNS, Amazon Eventbridge.
 - Programming Language: Python 3.x
-- External API (Sportsdata.io)
-- IAM Security
-- GitHub
+- External API (Sportsdata.io).
+- IAM Security.
 
 #Project Structure
   
@@ -55,11 +54,10 @@ This Project is a Game-Day Alert system built with Python Programming language t
 ## Confirm Subscription
 - Go to the Inbox of the email address provided.
 - Confirm the subscription via the confirmation link.
-- Verify the subscription in the subscription Panel in the AWS management console.
+- Verify the subscription in the subscription panel in the AWS management console.
 ## Create SNS Publish Policy
 - Nagivate to AWS management console. Search for IAM and Click IAM.
 - In the IAM Dashboard, click on Policies and Create Policy.
-- In the Select service list, choose SNS.
 - Click on JSON.
 - Copy the JSON Policy from the JSON file in the repository and Paste the JSON policy in the policy editor.
 - In the Resource tag in the code, replace REGION and ACCOUNT_ID with the AWS region and account ID of your AWS account.
