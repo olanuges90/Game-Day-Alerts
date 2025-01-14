@@ -67,9 +67,8 @@ This Project is a Game-Day Alert system built with Python Programming language t
 - In the AWS Dashboard, click on Roles and Create Role.
 - Select AWS Service.
 - In the Use case list, Select Lambda and Click Next.
-- Add the polices created earlier to the role (i.e gd_sns_policy and Lambda Basic Execution Role) and Click Next.
+- Attach the polices created earlier to the role (i.e gd_sns_policy and Lambda Basic Execution Role) and Click Next.
 - Enter a Name for the Role (i.e gd_lambda_role) and Create Role.
-- Copy and Save the Role ARN.
 ## Deploy the Lambda Function
 - In AWS Management Console, Search and Select Lambda.
 - Click Create Function.
