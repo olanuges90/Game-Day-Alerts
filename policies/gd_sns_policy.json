@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "sns:Publish",
-            "Resource": "arn:aws:sns:REGION:ACCOUNT_ID:game_alert"
+            "Resource": "arn:aws:sns:REGION:ACCOUNT_ID:game_alerts"
         }
     ]
 }
